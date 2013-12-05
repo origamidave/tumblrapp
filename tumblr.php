@@ -1,3 +1,4 @@
+<?php
 // Authenticate via OAuth
 $client = new Tumblr\API\Client(
   '0bo922vcuuKNCrzKyn6FMoBtwaQnUfbP2Oyjy31gHh3XnuaKbC',
@@ -8,3 +9,4 @@ $client = new Tumblr\API\Client(
 
 // Make the request
 $client->getDashboardPosts(array('type' => 'photo'));
+?>
